@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image:url("Images/bg.jpg") ;
+    background-size: contain;
+   
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    background-image: linear-gradient(135deg, #001f9c, #013450);
+    padding: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.choices{
+    display: flex;
+    justify-content: center; 
+    gap:5%;
+    padding : 3%;
+   /*background-image: linear-gradient(135deg, #b1afb1, #a0a0a0);*/
+}
+img{
+    height : 150px;
+    width :150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.choice{
+    display: flex;
+    height :157px;
+    width: 157px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+.choice:hover{
+    background-color: black;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.score{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    padding: 3%;
+    color:#001f9c
+
+}
+.result{
+    display:flex;
+    justify-content: center;
+    gap: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    padding: 0.2%;
+    
+}
+.user-score, .comp-score{
+    text-align: center;
+    
+}
+#userScore,#compScore{
+    font-size:3rem;
+    color: #9d2626;
+    
+}
+#msg{
+    background-image: linear-gradient(135deg, #0073a4, #015c84); 
+  
+    border-radius: 1.2rem;
+    font-size: 2rem;
+    display:inline;
+    color: #ffffff;
+    padding:2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+#msg:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.reset {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 2rem;
+padding: 3%;
+}
+#reset{
+    color:hsl(0, 0%, 100%);
+    height:30px;
+    background-image: linear-gradient(135deg, #0073a4, #015c84); 
+
+    padding-left: 1%;
+    padding-right:1%;
+    border-radius:10%;
+}
