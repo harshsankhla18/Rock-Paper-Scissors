@@ -18,7 +18,7 @@ The game allows a user to play against the computer in a classic match of Rock, 
     - Scissors beats Paper
     - Paper beats Rock
 5. Play as many rounds as you like!
-#languages used
+## Languages Used
 - HTML
 - CSS 
 - JS
