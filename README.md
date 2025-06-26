@@ -3,6 +3,7 @@
 ## Description
 This is a simple Rock-Paper-Scissors game implemented in your preferred programming language.
 The game allows a user to play against the computer in a classic match of Rock, Paper, and Scissors.
+## ![image](https://github.com/user-attachments/assets/8c9d6dc9-2273-4500-9d66-4e685d516829)
 
 ## Features
 - User vs Computer gameplay
